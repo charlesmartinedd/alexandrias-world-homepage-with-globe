@@ -82,7 +82,7 @@ async function initGlobe() {
         globe = Globe()
             (document.getElementById('globeViz'))
             .globeImageUrl(blueOceanTexture) // BRIGHT KID-FRIENDLY OCEAN BLUE!
-            .backgroundColor('#1E90FF') // Dodger Blue - rich and energetic!
+            .backgroundColor('#FFFFFF') // Pure white background
             .showGlobe(true)
             .showAtmosphere(false) // Disable atmosphere for cleaner classroom look
             .polygonsData(countries)
